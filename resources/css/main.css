@@ -351,6 +351,35 @@ text-align: center;
 
 }
 
+/* Animations */
+
+@keyframes fadein {
+0% {
+    opacity:0%;
+}
+100% {
+    opacity:1;
+}
+}
+
+main {
+    animation-name: fadein;
+    animation-duration: var(--transition-time);
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+    .logo-wrapper a:hover img {
+    animation-name:spin;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
 /* image hover */
 
 .image-gallery img {
