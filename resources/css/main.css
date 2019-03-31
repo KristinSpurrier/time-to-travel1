@@ -13,7 +13,7 @@
     --border-color: #97a4b1;
     
     --alternative-bg-color:  #69c2de;
-    --alternative-text-color:  #e8eef4; 
+    --alternative-text-color:  #000000; 
 
 
   
@@ -176,9 +176,8 @@ header .layout-wide {
 }
 
 .nav-inner a {
-    text-transform: uppercase;
     color: var(--alternative-text-color);
-    text-decoration: underline;
+    text-decoration: none;
 
     border-bottom: 1px solid var(--border-color);
 
