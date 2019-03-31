@@ -176,9 +176,9 @@ header .layout-wide {
 }
 
 .nav-inner a {
-    text-transform: lowercase;
+    text-transform: uppercase;
     color: var(--alternative-text-color);
-    text-decoration: none;
+    text-decoration: underline;
 
     border-bottom: 1px solid var(--border-color);
 
