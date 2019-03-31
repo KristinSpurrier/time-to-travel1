@@ -176,7 +176,7 @@ header .layout-wide {
 }
 
 .nav-inner a {
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: var(--alternative-text-color);
     text-decoration: none;
 
